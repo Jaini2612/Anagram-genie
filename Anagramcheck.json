@@ -1,0 +1,36 @@
+{
+  "name": "AnagramCheck",
+  "type": "object",
+  "properties": {
+    "word1": {
+      "type": "string",
+      "description": "First word or phrase"
+    },
+    "word2": {
+      "type": "string",
+      "description": "Second word or phrase"
+    },
+    "is_anagram": {
+      "type": "boolean",
+      "description": "Whether the words are anagrams"
+    },
+    "message": {
+      "type": "string",
+      "description": "Friendly result message with emoji"
+    },
+    "normalized_word1": {
+      "type": "string",
+      "description": "Normalized version of first word"
+    },
+    "normalized_word2": {
+      "type": "string",
+      "description": "Normalized version of second word"
+    }
+  },
+  "required": [
+    "word1",
+    "word2",
+    "is_anagram",
+    "message"
+  ]
+}
